@@ -133,6 +133,11 @@ class DateInputDirective implements OnDestroy {
     }
   }
 
+  @Input()
+  set dateTime(DateTime value) {
+    date = (value == null ? null : Date.fromTime(value));
+  }
+
   Date _date;
   Date get date => _date;
 
