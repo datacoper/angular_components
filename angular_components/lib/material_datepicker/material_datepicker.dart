@@ -143,6 +143,11 @@ class MaterialDatepickerComponent
     _setDateInternal(date, closePopup: false);
   }
 
+  @Input()
+  set dateTime(DateTime value) {
+    _setDateInternal(value == null ? null : Date.fromTime(value), closePopup: false);
+  }
+
   Date _date;
   Date get date => _date;
 
