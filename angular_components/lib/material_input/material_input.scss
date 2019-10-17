@@ -14,14 +14,13 @@ $default-input-width: 100%;
   display: inline-flex;
   flex-direction: column;
   outline: none;
-  padding: $mat-grid 0;
   text-align: inherit;
   width: $default-input-width;
   line-height: initial;
 }
 
 .baseline {
-  // On Firefox, we can't have a baseline-aligned inline-flex element unless the
+  // On floatingLabelFirefox, we can't have a baseline-aligned inline-flex element unless the
   // contents are also inline-flex. Context[1][2].
   //
   // [1]http://stackoverflow.com/a/26567760
