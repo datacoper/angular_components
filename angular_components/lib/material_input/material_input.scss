@@ -8,7 +8,7 @@
 $error-color: $mat-red-700;
 
 /// Default input width; chosen arbitrarily.
-$default-input-width: $mat-grid * 22;
+$default-input-width: 100%;
 
 :host {
   display: inline-flex;
