@@ -111,7 +111,7 @@ class MaterialDatepickerComponent
   /// If true, the embedded text field will display an error to the user if
   /// blank. If false, clearing the text field will set `date` to `null`.
   @Input()
-  bool required = true;
+  bool required = false;
 
   /// Preferred positions for alignment.
   List<RelativePosition> preferredPositions =
