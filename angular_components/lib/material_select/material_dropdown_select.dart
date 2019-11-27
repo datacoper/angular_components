@@ -342,6 +342,8 @@ class MaterialDropdownSelectComponent<T> extends MaterialSelectBase<T>
       // Update active item if new items are selected.
       var added =
           changes.last.added.isNotEmpty ? changes.last.added.first : null;
+      if(added == null)
+        return;
       if (added != null && !activeModel.isActive(added)) {
         activeModel.activate(added);
       }
