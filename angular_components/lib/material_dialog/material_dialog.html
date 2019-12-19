@@ -9,7 +9,7 @@
       <ng-content select="[header]"></ng-content>
     </header>
 
-    <div class="error" [class.expanded]="error != null">{{error}}</div>
+    <div class="error" [class.expanded]="error != null" [innerHTML]="error"></div>
 
     <main #main role="presentation"
           [class.with-scroll-strokes]="shouldShowScrollStrokes"
