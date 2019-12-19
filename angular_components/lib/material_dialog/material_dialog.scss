@@ -68,6 +68,7 @@ focus-trap {
   padding: 0 $mat-grid * 3;
   transition: padding $mat-transition $mat-transition-standard 0s;
   width: 100%;
+  white-space: pre;
 
   &.expanded {
     border-bottom: 1px $mat-gray-300 solid;
