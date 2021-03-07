@@ -1,3 +1,20 @@
+## 1.0.2
+
+* Update a number of outdated links in documentation.
+* Reverted addition of `changeDetection: ChangeDetectionStrategy.OnPush` to
+  components where the functionality is broken. Note: this may result in
+  additional warnings during build.
+
+## 1.0.1
+
+* Fix insecure link in `README.md`.
+* Update dependency on `package:protobuf` to `^1.0.0`.
+
+## 1.0.0
+
+* Stable release that supports the latest `package:angular` and 
+  `package:angular_forms`.
+
 ## 0.14.0-alpha+1
 ### Component Updates
 
@@ -826,8 +843,8 @@
 ## 0.9.0
 
 > Pub _transformers_ are no longer used. Instead, use the new
-> [webdev](https://pub.dartlang.org/packages/webdev) CLI, or, for advanced
-> users, the [build_runner](https://pub.dartlang.org/packages/build_runner) CLI.
+> [webdev](https://pub.dev/packages/webdev) CLI, or, for advanced
+> users, the [build_runner](https://pub.dev/packages/build_runner) CLI.
 >
 > Please see the Dart 2 [migration guide](https://webdev.dartlang.org/dart-2) for
 > more details.
@@ -1521,7 +1538,7 @@
  * Rename library to angular_components.
 
 > All previous versions were published as the
-> [Pub Package](https://pub.dartlang.org/packages/angular2_components) named
+> [Pub Package](https://pub.dev/packages/angular2_components) named
 > `angular2_components`.
 
 ## 0.4.1-beta
